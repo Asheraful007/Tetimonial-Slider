@@ -1,0 +1,16 @@
+const tnslider = tns({
+        container: ".slider",
+        items: 1,
+        slideBy: 1,
+        nav:true,
+        navPosition: "bottom",
+        mouseDrag: true,
+        autoplay: true,
+        mouseDrag: true,
+        autoplayButtonOutput: false,
+        controlsPosition: "bottom",
+        autoPlayTimeout:3000,
+        controlsContainer: "#controls",
+        animateIn: "scale",
+        speed: 1500,
+});
